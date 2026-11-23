@@ -93,7 +93,7 @@
               &trans  &trans  &trans  &trans  &trans          &trans    &trans     &trans     &trans     &trans
             >;
 
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&scroll_encoder>, <&rsr_trans>;
         };
 
         layer_2 {
